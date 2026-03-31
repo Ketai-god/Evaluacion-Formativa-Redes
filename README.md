@@ -24,7 +24,7 @@ Se utilizó un software de virtualización (VirtualBox / VMware) para la creaci�
 - RAM: 8 GB
 - Disco: 30 GB
 - CPU: 2 vCPU
-- Sistema: Windows Server 2019 Standard (Desktop Experience)
+- Sistema: Windows Server 2019 Datacenter Evaluation (Desktop Experience) 
 
 ---
 
@@ -32,5 +32,29 @@ Se utilizó un software de virtualización (VirtualBox / VMware) para la creaci�
 
 Se utilizó el siguiente comando en CMD:
 
-```bash
-ipconfig
+-  ipconfig
+
+## 🔹 Habilitación de Escritorio Remoto (RDP)
+
+Para permitir el acceso remoto al servidor, se habilitó la opción de Escritorio Remoto desde la configuración del sistema.
+
+### Método utilizado:
+1. Ir a:
+   - **Configuración**
+   - **Sistema**
+   - **Escritorio remoto**
+2. Activar la opción:
+   - ✅ "Habilitar Escritorio remoto"
+3. Confirmar los cambios
+
+
+---
+
+## 🔹 Verificación del servicio RDP
+
+Debido a limitaciones del entorno (uso de ISOs y configuración de laboratorio), no fue posible realizar una conexión remota desde otro equipo.
+
+Sin embargo, se verificó correctamente:
+
+- Activación del Escritorio Remoto en el sistema  
+- Configuración del servicio utilizando el puerto por defecto **3389**
